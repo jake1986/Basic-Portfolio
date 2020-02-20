@@ -146,7 +146,7 @@ footer {
 .main-section {
   float: left;
   width: 100%;
-  max-width: 650px;
+  max-width: 960px;
   padding: 30px;
   margin: 0 0 40px;
   background: #fff;
@@ -194,16 +194,18 @@ input[type=submit] {
   border: 0 none;
 }
 
-img {
+.me {
   width: 200px;
+  height: 160px;
   float: left;
+  padding-right: 10px;
   /*padding-right: 10px;*/
 }
 
 .work {
   float: left;
+  position: relative;
   margin: 20px 20px;
-
 }
 
 .auth-image {
@@ -211,17 +213,19 @@ img {
 }
 
 .auth-image {
-  width: 200px;
-  height: 400px;
-  
-
-}
+  width: 250px;
+  height: auto;
+  }
 
 .background {
-  background: blue;
-  width: 200px;
+  position: absolute;
+  background: #4aaaa5;
+  color: white;
+  text-align: center;
+  width: 250px;
   z-index: 1;
-  padding-bottom: 15px;
   margin-bottom: 10px;
+  bottom: 10px;
+
 }
 
